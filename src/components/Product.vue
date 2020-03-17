@@ -5,7 +5,7 @@
 			<h4>{{ item.name }}</h4>
 			<small>{{ item.price }}</small> 
 			<div id="button">
-				<button class="btn btn-primary">Buy Now</button>
+				<button class="btn btn-primary">Add To Cart</button>
 			</div>
 		</div>
 	</div>
@@ -19,63 +19,69 @@
 			description: [
 				{
 					categoryId: 1,
-					name: 'Mens Clothes',
-					price: '₦10,000',
-					path: require('../assets/men-cloth.jpeg')
+					name: 'Sweater',
+					price: '₦15,000',
+					path: require('../assets/sweater.jpeg')
 				},
 				{
 					categoryId: 2,
-					name: 'Gown for women',
-					price: '₦50,000',
-					path: require('../assets/female-cloth.jpg')
+					name: 'Gown',
+					price: '₦20,000',
+					path: require('../assets/gown.jpeg')
 				},
 				{
 					categoryId: 3,
-					name: 'Adidas shoe for men',
-					price: '₦250,000',
-					path: require('../assets/adidas-shoe.jpeg')
+					name: 'Nike Air Max',
+					price: '₦56,000',
+					path: require('../assets/nike.jpeg')
 				},
 				{
 					categoryId: 4,
-					name: 'High heel for women',
-					price: '₦57,000',
-					path: require('../assets/female-shoe.jpeg')
+					name: 'Shoe',
+					price: '₦33,000',
+					path: require('../assets/shoes.jpeg')
 				},
 				{
 					categoryId: 5,
-					name: 'Hair band',
-					price: '₦7,000',
-					path: require('../assets/hair-accessory.jpeg')
+					name: 'Apple watch series 3',
+					price: '₦135,000',
+					path: require('../assets/watch.jpeg')
 				},
 				{
 					categoryId: 5,
-					name: 'Tiara',
-					price: '₦5,000',
-					path: require('../assets/hair-accesory-2.jpg')
+					name: 'Iphone 11 pro max',
+					price: '₦465,000',
+					path: require('../assets/11pro.jpeg')
 				},
 				{
 					categoryId: 6,
-					name: 'iPhone 11',
+					name: 'iPhone 11 pro max',
 					price: '₦500,000',
-					path: require('../assets/iphone.jpeg')
+					path: require('../assets/11pro.jpeg')
 				},
 				{
 					categoryId: 7,
 					name: 'iWatch',
 					price: '₦150,000',
-					path: require('../assets/iwatch.jpeg')
+					path: require('../assets/watch.jpeg')
 				},
 				{
 					categoryId: 8,
-					name: 'Dell laptop',
-					price: '₦750,000',
-					path: require('../assets/laptop.jpeg')
+					name: 'Macbook Air 2014',
+					price: '₦450,000',
+					path: require('../assets/macbook.jpeg')
 				},
 				{
 					categoryId: 9,
-					name: 'Neck Chain and Earrings',
-					price: '₦40,000',
-					path: require('../assets/jewelery.jpg')
+					name: 'JBL Speakers',
+					price: '₦70,000',
+					path: require('../assets/speaker.jpeg')
+				},
+								{
+					categoryId: 9,
+					name: 'Shorts',
+					price: '₦10,000',
+					path: require('../assets/shorts.jpeg')
 				}
 			]
 			}
@@ -86,40 +92,50 @@
 <style scoped>
 .product {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding-left: 3px;
-	padding-right: 3px;
+	grid-template-columns: 2fr 2fr 2fr;
+	padding-left: 30px;
+	padding-right: 30px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+	justify-content: space-between;
+
 }
+
 img {
 	width: 290px;
 	height: 300px;
 }
+
 #image {
 	width: 290px;
 	height: 400px;
 	margin-top: 3px;
 	margin-bottom: 5px;
-	border: solid grey 3px;
+	border: 2px solid gold;
 	border-radius: 5px;
 	box-sizing: content-box;
+	margin-right: 20px;
 }
+
 #button {
 	float: right;
 	margin-top: 20px;
 	margin-right: 5px;
 }
+
 button {
-	background-color: rgb(46, 41, 41);
+	background-color: gold;
 	border: none;
 }
+
 button:hover {
 	background-color: rgb(19, 15, 15);
 }
+
 h4 {
 	margin-left: 5px;
 	font-weight: bolder;
 }
+
 small {
 	color: rgb(32, 30, 30);
 	margin-left: 5px;
