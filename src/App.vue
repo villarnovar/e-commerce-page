@@ -21,12 +21,11 @@
           </div>
         </div>
 
-        <div class="container mt-4 product-div">
-          </div>
-                <Product />
+        <div class="container  product-div">
+              <Product />
         </div>
   
-
+  </div>
 </template>
   
 

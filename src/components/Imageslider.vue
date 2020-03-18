@@ -10,13 +10,13 @@
     img-height="250"
   >
     <b-carousel-slide
-      img-src="https://jf-na-cdn.justfab.com/image/site/en_US/brand/ftv/5074/0311_offer1.jpg"
+      img-src="https://picsum.photos/1024/480/?image=54"
     ></b-carousel-slide>
     <b-carousel-slide
-      img-src="https://jf-na-cdn.justfab.com/image/site/en_US/brand/ftv/5074/0311_cta1.jpg"
+      img-src="https://picsum.photos/1024/480/?image=58"
     ></b-carousel-slide>
     <b-carousel-slide
-      img-src="https://images.wallpaperscraft.com/image/boots_legs_shoes_116191_2560x1440.jpg"
+      img-src="https://picsum.photos/1024/480/?image=52"
     ></b-carousel-slide>
     <b-carousel-slide
       img-src="https://s1.1zoom.me/b5050/141/Coffee_Book_Boots_Jeans_452278_3840x2400.jpg"
