@@ -24,6 +24,7 @@
         <div class="container  product-div">
               <Product />
         </div>
+      <Footer/>
   
   </div>
 </template>
@@ -35,6 +36,7 @@ import Header from '@/components/Header'
 import Category from '@/components/Category'
 import Product from '@/components/Product'
 import Imageslider from '@/components/Imageslider'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'Home',
@@ -42,7 +44,8 @@ export default {
     Header,
     Category,
     Product,
-    Imageslider
+    Imageslider,
+    Footer
     
   }
 
