@@ -1,24 +1,19 @@
-# tiideshop
+# @babel/code-frame
 
-## Project setup
-```
-npm install
-```
+> Generate errors that contain a code frame that point to source locations.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+See our website [@babel/code-frame](https://babeljs.io/docs/en/next/babel-code-frame.html) for more information.
 
-### Compiles and minifies for production
-```
-npm run build
+## Install
+
+Using npm:
+
+```sh
+npm install --save-dev @babel/code-frame
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+or using yarn:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+yarn add @babel/code-frame --dev
+```
