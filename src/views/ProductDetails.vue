@@ -2,8 +2,8 @@
 	<div class="product container">
 		<div id="image">
 			<img :src="`${product[0].path}`" alt="">
-      <div v-for="img in 3" class="flex">
-      <img :src="`${product[0].path}`" alt="" class='otherImages'>
+      <div v-for="img in 3" class="flex" :key="img">
+      
       </div>
 		</div>
     <div>
@@ -16,8 +16,33 @@
                 :to="`/product/${product[0].categoryId}-${product[0].name.replace(/[' ']+/g,'-').toLowerCase()}`"
                 >Add To Cart
                 </b-btn>
+				
 			</div>
+			
       </div>
+	  <div>
+  <b-jumbotron>
+    <template v-slot:lead>
+      Express delivery in main cities. <a href="#">Details</a>
+    </template>
+	
+      <h4>Delivery Information</h4>
+	  <p>
+	Normally delivered between Tuesday 31 Mar and Wednesday 1 Apr. 
+	Please check exact dates in the Checkout page.See more <a href="#">See More</a>
+    </p>
+	
+
+    <hr class="my-4">
+
+    <p>
+      It uses utility classes for typography and spacing to space content out within the larger
+      container.
+    </p>
+
+    <b-button variant="primary" href="#">see similar products</b-button>
+  </b-jumbotron>
+</div>
 	</div>
 </template>
 
